@@ -41,10 +41,10 @@
 		72814E81DB2B2BA6AC0FD88D /* Pods_TextFieldPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFieldPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB92375F1DD39996DF2F92B7 /* Pods-TextFieldPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldPod_Example.release.xcconfig"; path = "Target Support Files/Pods-TextFieldPod_Example/Pods-TextFieldPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABC0F472BA3752E20DF79B3B /* Pods_TextFieldPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFieldPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD08E54219CA11D3D93847A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD08E54219CA11D3D93847A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C0A966D2007DF23237190856 /* Pods-TextFieldPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TextFieldPod_Tests/Pods-TextFieldPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCDA00E3A9A213EFA77AAC84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DE3F6B85B79F7EE783C4CE9B /* TextFieldPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TextFieldPod.podspec; path = ../TextFieldPod.podspec; sourceTree = "<group>"; };
+		DCDA00E3A9A213EFA77AAC84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE3F6B85B79F7EE783C4CE9B /* TextFieldPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TextFieldPod.podspec; path = ../TextFieldPod.podspec; sourceTree = "<group>"; };
 		ECD3A327E6CA1E1A8BAA506B /* Pods-TextFieldPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-TextFieldPod_Tests/Pods-TextFieldPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F38AAAB949AD29BE1C7B5362 /* Pods-TextFieldPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-TextFieldPod_Example/Pods-TextFieldPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				C0A966D2007DF23237190856 /* Pods-TextFieldPod_Tests.debug.xcconfig */,
 				ECD3A327E6CA1E1A8BAA506B /* Pods-TextFieldPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextFieldPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextFieldPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

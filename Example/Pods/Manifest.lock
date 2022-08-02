@@ -1,0 +1,16 @@
+PODS:
+  - TextFieldPod (0.1.0)
+
+DEPENDENCIES:
+  - TextFieldPod (from `../`)
+
+EXTERNAL SOURCES:
+  TextFieldPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TextFieldPod: b8be57404990a2a2e7869867fb809f8edb2cbe99
+
+PODFILE CHECKSUM: 5cd1280c5fcc3c58de1f1fb496e04ef0bc722d53
+
+COCOAPODS: 1.11.3
