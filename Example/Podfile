@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TextFieldPod_Example' do
+  pod 'TextFieldPod', :path => '../'
+
+  target 'TextFieldPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
